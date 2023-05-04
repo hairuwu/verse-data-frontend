@@ -6,12 +6,10 @@
 					<!-- header -->
 					<el-header>
 						这里提供了实用的大数据数据ETL工具
-
 					</el-header>
 
 					<!-- 核心显示内容，根据上面funcChoice的参数来展示不同的内容 -->
 					<el-main>
-
 						<!-- 选项 -->
 						<el-row :gutter="12">
 							<el-col :span="8">
@@ -26,8 +24,8 @@
 							</el-col>
 							<el-col :span="8">
 								<el-card shadow="hover">
-									<el-button type="primary" plain @click='funcChoice("mqAndOthers")'>MQ / Others
-									</el-button>
+									<img alt="Verse Data" style="width:400px ;height: 200px" src="../../assets/imgs/mqtools.png">
+									<el-button type="primary" plain @click='funcChoice("mqAndOthers")'>MQ / Others</el-button>
 								</el-card>
 							</el-col>
 						</el-row>
@@ -51,6 +49,7 @@
 
 <script>
 	import RDBMSTools from './RDBMSTools.vue'
+	import MQTools from './MQTools.vue'
 
 	export default {
 		name: 'ETLTools',
@@ -61,7 +60,8 @@
 		},
 
 		components: {
-			RDBMSTools
+			RDBMSTools,
+			MQTools
 		},
 
 		methods: {
@@ -71,6 +71,9 @@
 					case 'rdbms':
 						console.log('进来了')
 						this.toolsName = 'RDBMSTools';
+						break;
+					case 'mqAndOthers':
+						this.toolsName = 'MQTools';
 						break;
 				}
 			}
