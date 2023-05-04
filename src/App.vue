@@ -53,8 +53,7 @@
 						<el-menu-item index="4-1">团队介绍</el-menu-item>
 						<el-menu-item index="4-2">加入我们</el-menu-item>
 					</el-sub-menu>
-
-
+					
 				</el-menu>
 			</el-header>
 
@@ -80,6 +79,7 @@
 	import AboutUs from "./components/AbooutUs.vue"
 	import IndexPage from './components/IndexPage.vue'
 	import ETLTools from './components/products/ETLTools.vue'
+	import DataLakeAndDataWare from './components/products/DataLakeAndDataWare.vue'
 	
 	// 导航栏脚本
 	import {
@@ -107,7 +107,8 @@
 			JoinUs,
 			AboutUs,
 			IndexPage,
-			ETLTools
+			ETLTools,
+			DataLakeAndDataWare
 		},
 
 
@@ -123,6 +124,9 @@
 					case '1':
 						this.pageName = 'IndexPage';
 						break;
+					case '2-2':
+						this.pageName = 'DataLakeAndDataWare';
+						break;
 					case '2-4':
 						this.pageName = 'ETLTools';
 						break;
@@ -132,7 +136,6 @@
 					case '4-2':
 						this.pageName = 'JoinUs';
 						break;
-					
 				}
 				
 			},
