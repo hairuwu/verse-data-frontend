@@ -24,11 +24,6 @@
 			</el-container>
 		</div>
 
-
-
-		<br />
-
-
 	</div>
 </template>
 

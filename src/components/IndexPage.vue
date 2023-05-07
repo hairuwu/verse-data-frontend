@@ -16,9 +16,32 @@
 				<el-divider />
 
 				<el-main>
-					<el-space wrap :size="large">
-						<!-- <el-text tag="b" size="large">Verse Data - 让每一比特数据都能发挥价值</el-text> -->
-					</el-space>
+					<div>
+						<h1>提供的能力</h1>
+						<br />
+						<el-row :gutter="12">
+							<el-col :span="8">
+								<el-card shadow="hover">
+									<el-text tag="b" style="color: royalblue;" size="100px">数据湖&数据仓库&湖仓一体 架构解决方案
+									</el-text>
+								</el-card>
+							</el-col>
+							<el-col :span="8">
+								<el-card shadow="hover">
+									<el-text tag="b" style="color: royalblue;" size="100px"> 数据上云&监控&质量保证
+									</el-text>
+								</el-card>
+							</el-col>
+							<el-col :span="8">
+								<el-card shadow="hover">
+									<el-text tag="b" style="color: royalblue;" size="100px"> 数据预测、决策+AI 能力
+									</el-text>
+								</el-card>
+							</el-col>
+						</el-row>
+					</div>
+
+					<el-divider />
 
 					<el-space wrap :size="large">
 						<div>
