@@ -12,6 +12,11 @@ import App from './App.vue'
  * 
  */
 
+/**
+ * npm run build 
+ * git subtree push --prefix dist origin gh-pages
+ */
+
 
 // 加载 element 组件库
 import ElementPlus from 'element-plus'
