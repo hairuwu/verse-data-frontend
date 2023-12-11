@@ -46,7 +46,7 @@
 					<el-space wrap :size="large">
 						<div>
 							<img alt="Verse Data" style="width:100% ;height: 100%"
-								src="../assets/imgs/verse-data-feature.png">
+								src="../assets/imgs/verse-data-small.png">
 						</div>
 
 					</el-space>
@@ -56,7 +56,7 @@
 
 				<el-footer>
 					<el-tag>
-						联系我们 hairuwu@qq.com
+						联系我们 421803476@qq.com
 					</el-tag>
 
 				</el-footer>
