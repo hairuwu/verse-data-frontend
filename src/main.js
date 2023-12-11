@@ -18,7 +18,9 @@ import ElementPlus from 'element-plus'
 
 // 加载 element 组件库的样式
 import 'element-plus/dist/index.css'
- 
+
+
+
 // 全局注册 element 组件库
 // 创建应用，并使用elementui,
 // mount 中可以是一个实际的 DOM 元素或是一个 CSS 选择器字符串：
