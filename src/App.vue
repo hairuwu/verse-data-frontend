@@ -31,27 +31,32 @@
 						<template #title>产品</template>
 						<el-menu-item index="2-1">DBLand-新一代数据库管理软件</el-menu-item>
 						<el-menu-item index="2-2">面向大数据的湖仓一体架构</el-menu-item>
-						<el-menu-item index="2-3">面向数字孪生的BIM数据管理</el-menu-item>
-						<el-menu-item index="2-4">大数据ETL工具</el-menu-item>
+						<el-menu-item index="2-3">大数据ETL工具</el-menu-item>
+					</el-sub-menu>
+					
+					<el-sub-menu index="3">
+						<template #title>解决方案</template>
+						<el-menu-item index="3-1">企业数智化软件</el-menu-item>
+						<el-menu-item index="3-2">中小规模团队定制化软件开发</el-menu-item>
 					</el-sub-menu>
 
 					<!-- 研究 -->
-					<el-sub-menu index="3">
+					<el-sub-menu index="4">
 						<template #title>研究</template>
-						<el-menu-item index="3-1">大数据存储</el-menu-item>
-						<el-menu-item index="3-3">大数据计算</el-menu-item>
-						<el-sub-menu index="3-4">
+						<el-menu-item index="4-1">大数据存储</el-menu-item>
+						<el-menu-item index="4-2">大数据计算</el-menu-item>
+						<el-sub-menu index="4-3">
 							<template #title>数据管理</template>
-							<el-menu-item index="3-4-1">HTAP分析</el-menu-item>
-							<el-menu-item index="3-4-2">BIM数据管理</el-menu-item>
+							<el-menu-item index="4-4-1">HTAP分析</el-menu-item>
+							<el-menu-item index="4-4-2">BIM数据管理</el-menu-item>
 						</el-sub-menu>
 					</el-sub-menu>
 
 					<!-- 关于我们 -->
-					<el-sub-menu index="4">
+					<el-sub-menu index="5">
 						<template #title>关于我们</template>
-						<el-menu-item index="4-1">团队介绍</el-menu-item>
-						<el-menu-item index="4-2">加入我们</el-menu-item>
+						<el-menu-item index="5-1">团队介绍</el-menu-item>
+						<el-menu-item index="5-2">加入我们</el-menu-item>
 					</el-sub-menu>
 					
 				</el-menu>
@@ -130,10 +135,10 @@
 					case '2-4':
 						this.pageName = 'ETLTools';
 						break;
-					case '4-1':
+					case '5-1':
 						this.pageName = 'AboutUs';
 						break;
-					case '4-2':
+					case '5-2':
 						this.pageName = 'JoinUs';
 						break;
 				}
