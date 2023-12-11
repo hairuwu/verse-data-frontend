@@ -14,7 +14,8 @@ import App from './App.vue'
 
 /**
  * npm run build 
- * git subtree push --prefix dist origin gh-pages
+ * git subtree push --prefix dist origin gh-page
+ * 网址：https://hairuwu.github.io/verse-data-frontend/index.html
  */
 
 
