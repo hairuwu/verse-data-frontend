@@ -48,7 +48,6 @@
 						<el-sub-menu index="4-3">
 							<template #title>数据管理</template>
 							<el-menu-item index="4-4-1">HTAP分析</el-menu-item>
-							<el-menu-item index="4-4-2">BIM数据管理</el-menu-item>
 						</el-sub-menu>
 					</el-sub-menu>
 
